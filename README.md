@@ -10,4 +10,4 @@ Basic command:
   - E.g: `!joke dark pun`
 - `!joke safe` joke that are safe-for-work and family-friendly
 
-API using: [https://sv443.net/jokeapi/v2/]
+API used: [https://sv443.net/jokeapi/v2/]
