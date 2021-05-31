@@ -63,6 +63,7 @@ client.on("message", (message) => {
       .map((x) => toPascalCase(x))
       .filter((x) => joke_categories.indexOf(x) >= 0);
     args = [...new Set(args)];
+    if (args.length === 0) return;
 
     queryString = args.join(",");
 
