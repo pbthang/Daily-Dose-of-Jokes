@@ -6,7 +6,7 @@ const client = new Discord.Client();
 
 const prefix = "!joke";
 
-client.user.setActivity("!joke help");
+client.user.setActivity("!joke help", { type: "PLAYING" });
 
 client.once("ready", () => {
   console.log(`[Logged in as ${client.user}]`);
