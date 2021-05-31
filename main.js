@@ -49,19 +49,19 @@ client.on("message", (message) => {
 
   if (message.content == `${prefix} help`) {
     message.channel.send(
-      `# Daily-Dose-of-Jokes\n
-      \n
-      A discord bot that tells jokes\m
-      Link: [https://discord.com/api/oauth2/authorize?client_id=848780842683465758&permissions=2148001856&scope=bot]\n
-      \n
-      Basic command:\n
-      \n
-      - \`!joke\` tell any jokes (including nsfw)\n
-      - \`!joke [list of categories]\` jokes from a set of categories\n
-        \t - List of categories available: Programming, Miscellaneous, Dark, Pun, Spooky, Christmas\n
-        \t - E.g: \`!joke dark pun\`\n
-      - \`!joke safe\` jokes that are safe-for-work and family-friendly\n
-      \n
+      `# Daily-Dose-of-Jokes
+
+      A discord bot that tells jokes
+      Link: [https://discord.com/api/oauth2/authorize?client_id=848780842683465758&permissions=2148001856&scope=bot]
+      
+      Basic command:
+      
+      - \`!joke\` tell any jokes (including nsfw)
+      - \`!joke [list of categories]\` jokes from a set of categories
+        \t- List of categories available: Programming, Miscellaneous, Dark, Pun, Spooky, Christmas
+        \t- E.g: \`!joke dark pun\`
+      - \`!joke safe\` jokes that are safe-for-work and family-friendly
+      
       API used: [https://sv443.net/jokeapi/v2/]`
     );
   }
