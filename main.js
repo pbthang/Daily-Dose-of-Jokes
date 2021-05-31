@@ -19,9 +19,11 @@ client.on("message", (message) => {
       .then((res) => {
         if (res.type == "twopart") {
           message.channel.send(res.setup);
-          message.channel.send("||" + res.delivery + "||");
+          message.channel
+            .send("||" + res.delivery + "||")
+            .then((msg) => msg.react("🤡"));
         } else if (res.type == "single") {
-          message.channel.send(res.joke);
+          message.channel.send(res.joke).then((msg) => msg.react("🤡"));
         }
       });
     return;
@@ -35,9 +37,11 @@ client.on("message", (message) => {
       .then((res) => {
         if (res.type == "twopart") {
           message.channel.send(res.setup);
-          message.channel.send("||" + res.delivery + "||");
+          message.channel
+            .send("||" + res.delivery + "||")
+            .then((msg) => msg.react("🤡"));
         } else if (res.type == "single") {
-          message.channel.send(res.joke);
+          message.channel.send(res.joke).then((msg) => msg.react("🤡"));
         }
       });
     return;
@@ -60,8 +64,6 @@ client.on("message", (message) => {
       .filter((x) => joke_categories.indexOf(x) >= 0);
     args = [...new Set(args)];
 
-    console.log(args);
-
     queryString = args.join(",");
 
     fetch("https://v2.jokeapi.dev/joke/" + queryString)
@@ -69,9 +71,11 @@ client.on("message", (message) => {
       .then((res) => {
         if (res.type == "twopart") {
           message.channel.send(res.setup);
-          message.channel.send("||" + res.delivery + "||");
+          message.channel
+            .send("||" + res.delivery + "||")
+            .then((msg) => msg.react("🤡"));
         } else if (res.type == "single") {
-          message.channel.send(res.joke);
+          message.channel.send(res.joke).then((msg) => msg.react("🤡"));
         }
       });
     return;
