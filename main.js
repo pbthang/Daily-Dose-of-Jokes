@@ -53,7 +53,7 @@ client.on("message", (message) => {
       `
     **Daily-Dose-of-Jokes**
     A discord bot that tells jokes
-    Link: [https://discord.com/api/oauth2/authorize?client_id=848780842683465758&permissions=2148001856&scope=bot]
+    Link in this repo: [https://github.com/pbthang/Daily-Dose-of-Jokes]
     
     **Basic command**:
     - \`!joke\` tell any jokes (including nsfw)
