@@ -1,6 +1,6 @@
 # Daily-Dose-of-Jokes
 
-A discord bot that tells jokes
+A discord bot that tells jokes  
 Link: [https://discord.com/api/oauth2/authorize?client_id=848780842683465758&permissions=2148001856&scope=bot]
 
 Basic command:
