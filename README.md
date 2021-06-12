@@ -5,6 +5,7 @@ Link: [https://discord.com/api/oauth2/authorize?client_id=848780842683465758&per
 
 Basic command:
 
+- `!joke help` well, it helps...
 - `!joke` tell any jokes (including nsfw)
 - `!joke [list of categories]` jokes from a set of categories
   - List of categories available: Programming, Miscellaneous, Dark, Pun, Spooky, Christmas
